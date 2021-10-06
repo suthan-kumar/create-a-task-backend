@@ -1,0 +1,19 @@
+{
+  "name": "create-a-task-backend",
+  "version": "1.0.0",
+  "description": "Create a Task Backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Suthankumar S",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "mongoose": "^6.0.8",
+    "morgan": "^1.10.0"
+  }
+}
