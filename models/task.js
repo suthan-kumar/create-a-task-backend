@@ -9,7 +9,7 @@ const TaskSchema = Schema({
     minlength: 2,
     trim: true,
   },
-  deadline: Date,
+  deadline: String,
   priority: {
     type: String,
     required: true,

@@ -22,6 +22,11 @@ const init = () => {
 
 initDB(init);
 
+// Auth Routes
+const AuthRoutes = require("./routes/auth");
+app.use("/auth", AuthRoutes);
+
+// Task Routes
 const TaskRoutes = require("./routes/task");
 app.use("/task", TaskRoutes);
 
